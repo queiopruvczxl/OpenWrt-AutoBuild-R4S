@@ -59,8 +59,8 @@ jobs:
 
     - name: Clone source code
       env: 
-        REPO_URL: https://github.com/1715173329/openwrt
-        REPO_BRANCH: 1806-k54-rk3399
+        REPO_URL: https://github.com/1715173329/immortalwrt
+        REPO_BRANCH: openwrt-18.06
       run: |
         git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt
         cd openwrt
